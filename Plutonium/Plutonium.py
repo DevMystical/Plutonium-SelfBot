@@ -1,5 +1,10 @@
 ### IF YOU PAID FOR THIS YOU HAVE BEEN SCAMMED - https://github.com/DevMystical/Plutonium-SelfBot ###
 
+# Created by Mystical in Jan-Feb 2021
+# If you skid rip this you are gay
+# I don't have windows so create an Issue on the GitHub if there is something broken, but that
+# goes for all bugs. Enjoy!
+
 import os
 print("\033]0;Plutonium SelfBot - By Mystical\007")
 os.system('cls' if os.name == 'nt' else 'clear')
