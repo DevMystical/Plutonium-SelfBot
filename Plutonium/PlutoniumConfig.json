@@ -1,0 +1,11 @@
+{
+    "Discord Token": "",
+    "Bot Prefix": "--",
+    "Use Thumbnail on Embeds": false,
+    "Thumbnail Icon Url": "",
+    "Use Embeds": true,
+    "Nitro Sniper": true,
+    "Show Logs for all Actions": true,
+    "Delete Delay (0 = Do not delete messages)": 0,
+    "Google API Key": ""
+}
