@@ -219,10 +219,12 @@ for rel in relationships:
 		friend_count += 1
 
 nest_asyncio.apply()
+# COMMENT OUT TO DISABLE RICH PRESENCE #
 rpc = pypresence.Presence("811001190635536466", loop=asyncio.get_event_loop())
 rpc.connect()
 rpc.update(state=f"Friend Count: {friend_count}", details=f"Guild Count: {server_count}", large_image="radioactive", small_image="python3", start=rpc_start)
-
+# STOP COMMENTING HERE #
+	      
 @plutonium.event
 async def on_connect():
 	global first_bootup
