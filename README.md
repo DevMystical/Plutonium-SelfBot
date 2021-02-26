@@ -13,6 +13,7 @@ Easy to use SelfBot for Discord. Full command list is available in the SelfBot.
 * Token Tools
 * Good Error Handling
 * Detailed Help Menu
+* Rich Presence
 * Many, many commands
 
 *And much, much more!*
