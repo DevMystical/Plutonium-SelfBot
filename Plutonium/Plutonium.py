@@ -2068,3 +2068,7 @@ plutonium.run(token, bot=False)
 if restart_bot and not os.name == "nt":
 	# Sucks to suck, I don't have windows so people on windows can't have nice things around here
 	os.system("cd \"${0%/*}\"; python3 Plutonium.py; exit")
+
+			       
+			       
+			       #sake
