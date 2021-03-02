@@ -18,8 +18,6 @@ except:
 	exit()
 try:
 	import requests
-	import pypresence
-	import nest_asyncio
 except:
 	print("Please ensure you have the following python modules installed: [requests, pypresence, nest-asyncio]\nInstall script:\npip3 install requests; pip3 install pypresence; pip3 install nest-asyncio")
 	exit()
@@ -222,13 +220,6 @@ relationships = request.get('https://canary.discord.com/api/v6/users/@me/relatio
 for rel in relationships:
 	if rel['type'] == 1:
 		friend_count += 1
-
-nest_asyncio.apply()
-# COMMENT OUT TO DISABLE RICH PRESENCE #
-rpc = pypresence.Presence("811001190635536466", loop=asyncio.get_event_loop())
-rpc.connect()
-rpc.update(state=f"Friend Count: {friend_count}", details=f"Guild Count: {server_count}", large_image="radioactive", small_image="python3", start=rpc_start)
-# STOP COMMENTING HERE #
 	      
 @plutonium.event
 async def on_connect():
