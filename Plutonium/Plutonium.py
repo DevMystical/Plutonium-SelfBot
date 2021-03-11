@@ -500,7 +500,7 @@ async def help(ctx, category=""):
 		embed.add_field(name=f"`{bot_prefix}blank`", value="Send a one-line blank message.", inline=False)
 		embed.add_field(name=f"`{bot_prefix}length <message>`", value="Show the length of some text.", inline=False)
 		embed.add_field(name=f"`{bot_prefix}rate <type> <message>`", value="Rate a message based on its toxicity, insult factor, etc. Requires the Google API to be enabled. Leave the command blank to view valid attributes.", inline=False)
-		embed.add_field(name=f"`{bot_prefix}blockletters <message>`", value="", inline=False)
+		embed.add_field(name=f"`{bot_prefix}blockletters <message>`", value="Send block letters with emojis.", inline=False)
 		embed.add_field(name=f"`{bot_prefix}password`", value="Create a random and secure password.", inline=False)
 
 	elif cat == "image" or cat == "img":
