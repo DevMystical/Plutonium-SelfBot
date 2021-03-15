@@ -553,7 +553,7 @@ async def ban(ctx, member: discord.User=None, delete_message_days: int=0):
 @plutonium.command()
 async def kick(ctx, member: discord.User=None):
 	if not ctx.guild:
-		await ("You have to be in a guild to do that!", "Moderation").send(ctx)
+		await MsgEmbed("You have to be in a guild to do that!", "Moderation").send(ctx)
 	elif not member or member == plutonium.user:
 		await MsgEmbed("Please give a valid user to kick.", "Moderation").send(ctx)
 	else:
